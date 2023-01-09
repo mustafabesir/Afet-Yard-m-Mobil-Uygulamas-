@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GD_1</string>
+    <array name="afetler">
+        <item>AFET TÜRÜ SEÇİNİZ !!</item>
+        <item>DEPREM</item>
+        <item>SEL/TSUNAMİ</item>
+        <item>YANGIN</item>
+        <item>TOPRAK KAYMASI/KAYA DÜŞMESİ</item>
+        <item>ÇIĞ</item>
+        <item>VOLKANİK AFET</item>
+        <item>FIRTINA/HORTUM</item>
+        <item>DİĞER</item>
+
+    </array>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    tools:context=".Hakkinda">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="363dp"
+        android:layout_height="349dp"
+        android:background="#A6ADD6"
+        android:fontFamily="@font/alata"
+        android:text="Güvendeyim/Değilim adlı Android Mobil Uygulaması Düzce Üniversitesi Yönetim Bilişim Sistemleri Bölümü Mobil Uygulamalar dersi için  proje ödevi olarak hazırlanmış ve sunulmuştur. Uygulama Android 7.0 ve üstü cihazlar için uyarlanmıştır.Uygulamanın kurgusu Afet anında bir kullanıcının Güvende olup olmadığını ve Güvende değilse Sağlık bilgisi ,Afet bilgisi gibibilgileri Kontrol paneline gönderilmesi ve Uygulamanın Yönetici kısmından giriş yapan kullanıcıların bu bildirimleri görmesi ve gerekli işlemleri yapmasıdır.                                                                     "
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="339dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#F44336"
+        android:text="Uygulamaya Dönüş"
+
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
